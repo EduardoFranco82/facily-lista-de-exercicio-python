@@ -3,14 +3,14 @@
 #  altura inferior à média de altura desses alunos.
 
 
-class Aluno_5:
+class Aluno:
     def __init__(self,nome,idade,altura):
         self.nome=nome
         self.idade=idade
         self.altura=altura
     def __str__(self):
         return f'Nome: {self.nome} Idade: {self.idade} Altura: {self.altura}'
-class Sistema_5:
+class Sistema:
     def __init__(self):
         self.alunos = []
     def add_alunos(self, aluno):
@@ -25,17 +25,17 @@ class Sistema_5:
         return f'Lista de alunos maiores que media de {media} de atura'
     def idade_maior(self):
         return f'Quantiade de alunos maior que 13 é de {len(list(filter(lambda x:x.idade >= 13,self.alunos)))}'
-a5_a = Aluno_5('jose1',13,1.30)
-a5_b = Aluno_5('jose2',10,1.70)
-a5_c = Aluno_5('jose3',13,1.80)
-a5_d = Aluno_5('jose4',10,1.70)
-a5_e = Aluno_5('jose5',10,1.10)
-a5_f = Aluno_5('jose6',16,1.70)
-a5_g = Aluno_5('jose7',10,1.40)
-a5_h = Aluno_5('jose8',14,1.70)
-a5_i = Aluno_5('jose9',13,1.10)
-a5_j = Aluno_5('jose10',13,1.99)
-a5 = Sistema_5()
+a5_a = Aluno('jose1',13,1.30)
+a5_b = Aluno('jose2',10,1.70)
+a5_c = Aluno('jose3',13,1.80)
+a5_d = Aluno('jose4',10,1.70)
+a5_e = Aluno('jose5',10,1.10)
+a5_f = Aluno('jose6',16,1.70)
+a5_g = Aluno('jose7',10,1.40)
+a5_h = Aluno('jose8',14,1.70)
+a5_i = Aluno('jose9',13,1.10)
+a5_j = Aluno('jose10',13,1.99)
+a5 = Sistema()
 a5.add_alunos(a5_a)
 a5.add_alunos(a5_b)
 a5.add_alunos(a5_c)

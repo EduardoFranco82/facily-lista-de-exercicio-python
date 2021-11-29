@@ -16,7 +16,7 @@ class Funcionário:
         self.salario += aumento
         return self.salario
 
-    funcionario1 = Funcionário('jose',1000.00)
+    funcionario1 = Funcionário('edu',2000.00)
     print(funcionario1)
-    funcionario1.aumentar_salario(50)
+    funcionario1.aumentar_salario(100)
     print(funcionario1)
