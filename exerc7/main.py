@@ -7,9 +7,7 @@
 from datetime import datetime
 from datetime import timedelta
 class Data():
-    """ def get_datetime():
-        x = datetime.datetime.now()
-        print(x.strftime("%x")) """
+    
     def __init__(self, dia=0, mes=0, ano=0):
         if dia == 0:
             dia = datetime.today().day

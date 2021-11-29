@@ -2,4 +2,11 @@
 e calcule e mostre o primeiro número elevado ao segundo número.
  Não utilize a função de potência nativa da linguagem.'''
 
- 
+def potencia():
+     base = int(input('Digite a base:'))
+     expoente = int(input('Digite o expoente'))
+     calculo = base ** expoente
+     print (calculo)
+
+
+potencia()
